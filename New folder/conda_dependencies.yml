@@ -1,0 +1,16 @@
+# Save this as a conda_dependencies.yml
+name: augment_env
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - pandas
+    - nltk
+    - transformers
+    - tqdm
+    - azureml-core
+    - azureml-defaults
+    - azureml-mlflow
+channels:
+  - defaults
+  - conda-forge
